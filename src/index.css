@@ -54,7 +54,18 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+.trash-icon {
+    transition: color 0.3s ease;  /* Smooth transition effect */
+}
 
+.trash-icon:hover {
+    color: red; /* Change the color to red on hover */
+    cursor: pointer;
+}
+
+.input-form {
+  max-width: 400px;
+}
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
